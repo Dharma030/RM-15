@@ -1,0 +1,43 @@
+/* Custom CSS for pagination */
+
+/* Apply a pink-violet background */
+body {
+    background-color: #ff69b4;
+}
+
+/* Style the container */
+.container {
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the pagination buttons */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the pagination buttons */
+.pagination button {
+    background-color: #ff69b4; /* Pink-violet background */
+    color: #000000; /* Black text color */
+    border: none;
+    padding: 10px 15px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Hover animation */
+}
+
+/* Change the background color on hover */
+.pagination button:hover {
+    background-color: #9900cc; /* Darker pink-violet on hover */
+}
+
+/* Style the active button */
+.pagination button.active {
+    background-color: #9900cc; /* Darker pink-violet for active button */
+    cursor: default; /* Disable hover for active button */
+}
